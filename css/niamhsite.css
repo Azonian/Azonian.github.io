@@ -5,3 +5,29 @@
 .page_description {
 	text-align: center;
 }
+
+#nav {
+    position: absolute;
+    left: 0px;
+    height: 40px;
+    background-color: #2C64B4;
+    width: 100%;
+    text-align: center;
+}
+#nav ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+#nav ul li {
+    margin: 0;
+    padding: 0;
+    float:left;
+}
+#nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    color: #FFF;
+    text-align: center;
+}
