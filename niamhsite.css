@@ -1,55 +1,65 @@
-vertical-flex {
+.vertical-flex {
 	display: flex;
 	flex-direction: column;
 	justify-content:center;
-	
+	gap: 2vh;
 }
 
-title {
-	
+.title {
+	color: Red;
+	text-align: center;
 }
 
-navbar {
-	display: flex;
-	justify-content:center;
-}
-
-navbar-item {
-	
-}
-
-navbar-item-selected {
-	
-}
-
-game {
+.navbar {
 	display: flex;
 	flex-direction: row;
 	justify-content:center;
+	gap: 2vw;
 }
 
-sidebar-image {
-	width:"1920";
-	height:"1080";
-}
-
-game-sidebar {
+.navbar-item {
 	
 }
 
-sticky-footer {
+.navbar-item-selected {
+	
+}
+
+.game {
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
+	gap: 1vw;
+}
+
+.sidebar-image {
+	width:25vw;
+	height:14.0625vw; 
+}
+
+.game-sidebar {
+	display: flex-inline;
+	flex-direction: column;
+	justify-content:center;
+	width:25vw
+}
+
+.sticky-footer {
 	position: -webkit-sticky; /*need for safari*/
 	position: sticky;
 	bottom: 0;
-	background-color: black;
-	padding: 50px; /*make realative*/
-	font-size: 20px; /*make realative*/
+	background-color: white;
+	padding: 1vh; /*make realative*/
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
+	gap: 2vw;
 }
 
-phone-number {
+.phone-number {
 	
 }
 
-email {
+.email {
 	
 }
