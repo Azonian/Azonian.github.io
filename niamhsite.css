@@ -1,9 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Carter+One");
+@import url("https://fonts.googleapis.com/css?family=Atkinson+Hyperlegible");
+
 body {
-	background-color:#fff8e8
+	background-color:#fff8e8;
+	font-family:"Atkinson Hyperlegible";
 }
 
 .vertical-flex {
-	display: flex;
+	display: flex-inline;
 	flex-direction: column;
 	justify-content:center;
 	align-items: center;
@@ -14,6 +18,14 @@ body {
 	font-family:"Carter One",Copperplate,Fantasy;
 	text-align: center;
 	font-size: 5vh;
+	padding-bottom: 0vh;
+}
+
+.subtitle {
+	text-align: center;
+	font-family:"Carter One",Copperplate,Fantasy;
+	font-size: 2vh;
+	padding-bottom: 3vh;
 }
 
 .navbar {
@@ -21,13 +33,21 @@ body {
 	flex-direction: row;
 	justify-content:center;
 	gap: 2vw;
-	color: #ffbd59;
+	background-color: #ffbd59;
 	position: -webkit-sticky; /*need for safari*/
 	position: sticky;
+	padding: 1vh;
+	gap: 2vw;
+	top: 0;
+	align-self: stretch;
+  
 }
 
+
 .navbar-item {
-	
+	color:black;
+	text-decoration: underline;
+	text-decoration-color: 	#a27734
 }
 
 .more-info {
@@ -42,7 +62,9 @@ body {
 }
 
 .navbar-item-selected {
-	color:#a20000
+	color:#a20000;
+	text-decoration: underline;
+
 }
 
 .game {
@@ -50,6 +72,7 @@ body {
 	flex-direction: row;
 	justify-content:center;
 	gap: 1vw;
+	padding: 1vh;
 }
 
 .sidebar-image {
@@ -100,6 +123,15 @@ body {
 .header-image {
 	width:50vw;
 	height:28.125vw; 
+	align-self: center;
+}
+
+.other-vertical {
+	width:33vw
+}
+
+.other-spliter {
+	
 }
 
 .phone-number {
