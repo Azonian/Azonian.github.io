@@ -40,9 +40,19 @@ body {
 	gap: 2vw;
 	top: 0;
 	align-self: stretch;
-  
+ 
 }
 
+.subheading {
+	padding-top: 10vh;
+	margin: 0;
+}
+
+p {
+	margin: 0;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+}
 
 .navbar-item {
 	color:black;
@@ -51,7 +61,26 @@ body {
 }
 
 .more-info {
+	color:black;
+	text-decoration: underline;
+	text-decoration-color: 	#ffbd59
+}
 
+.game-section-title{
+	color:black;
+	text-decoration: underline;
+	text-decoration-color: 	#ffbd59
+}
+
+.small-link {
+	color:black;
+	text-decoration: underline;
+	text-decoration-color: 	#ffbd59
+}
+
+.slideshow {
+	padding-top:2vh;
+	align-self:center
 }
 
 .right-aligned-flexbox {
@@ -114,25 +143,82 @@ body {
 }
 
 .flex-50vs {
-	display: flex-inline;
+	display: flex;
 	flex-direction: column;
 	justify-content:center;
-	width:50vw
+	align-items: center;
+	align-self: center; 
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
 }
 
 .header-image {
+	display: flex;
 	width:50vw;
-	height:28.125vw; 
+	height:28.125vw;
+	justify-content:center;
+	align-items: center;
 	align-self: center;
 }
 
 .other-vertical {
-	width:33vw
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+	width:33vw;
 }
 
 .other-spliter {
+	display: flex-inline;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+	width:50vw;
+	align-self: center;
+
+}
+
+.flexbox-paper {
+	display: flex-inline;
+	flex-direction:row
 	
 }
+
+.align-me-center-text {
+  text-align: center;
+}
+
+.pad3vh {
+	padding-bottom: 3vh;
+}
+
+.align-me-center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:50vw;
+  padding-top:3vh;
+}
+
+.align-me-center-image-header{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:60vw;
+  padding-top:3vh;
+}
+
+.align-me-center-header-video {
+	display: flex;
+	width:50vw;
+	height:28.125vw;
+	justify-content:center;
+	align-items: center;
+	align-self: center;
+}
+
 
 .phone-number {
 	
@@ -140,4 +226,23 @@ body {
 
 .email {
 	
+}
+.watdid {
+	font-style: italic;
+	font-weight: normal;
+}
+
+.image-description {
+	font-style: italic;
+	margin: 0;
+	padding-bottom: 2vh;
+}
+
+.page-title{
+	text-align: center;
+	font-size: 5vh;
+	padding-bottom: 0vh;
+	padding-top: 3vh;
+		margin: 0;
+
 }
